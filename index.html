@@ -22,12 +22,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
-  
-</head>
-<body>
-
-<!-- Google Analytics -->
+  <!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137271584-1"></script>
 <script>
@@ -38,6 +33,19 @@
   gtag('config', 'UA-137271584-1');
 </script>
 <!-- /Google Analytics -->
+  
+ <script>
+window.addEventListener('load',function(){ 
+  jQuery('[href*="https://www.amazon.com/"]').click(function(){
+    gtag('event', 'click', {'event_category': 'link','event_label':'amazon'});
+  })
+})
+</script> 
+  
+</head>
+<body>
+
+
 
 
   <section class="menu cid-rm01nIufQF" once="menu" id="menu2-0">
